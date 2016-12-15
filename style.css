@@ -19,6 +19,7 @@
     vertical-align: top;
     box-sizing: border-box;
 }
+
 .search{
     padding:12px;
     box-sizing: border-box;
@@ -91,7 +92,7 @@ p{
     padding:0px;
     margin:5px;
     font-family: sans-serif;
-    font-size: 25px;
+    font-size: 20px;
     color:yellow;
     font-style: italic;
 }
@@ -150,16 +151,20 @@ p{
     display:inline-block;
     vertical-align: top;
 }
+.midnav p::before{
+    content:"\00BB";
+    color:yellow;
+}
 .info{
     width:970px;
-    height:200px;
+    height:250px;
     /*border: 2px solid black;*/
     display:inline-block;
     background-color:white;
 }
 .infoleft{
     width:485px;
-    height:200px;
+    height:250px;
     margin:0px;
     display:inline-block;
     background-color:gray;
@@ -168,7 +173,7 @@ p{
     padding:0px;
     margin:0px;
     width:480px;
-    height:200px;
+    height:250px;
     vertical-align: top;
     display:inline-block;
     background-color:pink;
@@ -217,6 +222,7 @@ p{
     display:table;
     margin:0 auto;
     padding:0px;
+    vertical-align: top;
 }
 .banbot p{
     margin:20px 0px 0px 0px;
