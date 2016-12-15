@@ -141,9 +141,16 @@ p{
     box-sizing: border-box;
     width:650px;
     height:300px;
-    background-color:gray;
+    /*background-color:gray;*/
     display:inline-block;
     vertical-align:top;
+}
+.main .p1{
+    font-family: sans-serif;
+    text-align: center;
+    color:white;
+    margin: 10px 0px 0px 0px;
+    font-size: 18px;
 }
 .midnav{
     margin: 0px 0px 0px 100px;
@@ -170,26 +177,68 @@ p{
 }
 .info{
     width:970px;
-    height:250px;
+    height:auto;
     /*border: 2px solid black;*/
     display:inline-block;
     background-color:white;
 }
 .infoleft{
-    width:485px;
-    height:250px;
-    margin:0px;
+    width:375px;
+    height:auto;
+    margin:0px 0px 0px 60px;
     display:inline-block;
-    background-color:gray;
+    /*background-color:gray;*/
+    vertical-align: top;
 }
 .inforight{
     padding:0px;
-    margin:0px;
-    width:480px;
-    height:250px;
+    margin:0px 0px 0px 15px;
+    width:375px;
+    height:auto;
     vertical-align: top;
     display:inline-block;
-    background-color:pink;
+    /*background-color:pink;*/
+}
+.botbar{
+    width: 970px;
+    height:5px;
+    background-color: #283747;
+    display:block;
+    vertical-align: top;
+}
+.rightbar{
+    width: 400px;
+    height: 5px;
+    margin:10px 30px 10px 0px;
+    padding:0px;
+    background-color: #5499C7;
+    display:inline-block;
+    vertical-align: top;
+}
+.leftbar{
+    width: 400px;
+    height: 5px;
+    margin:10px 0px 10px 60px;
+    padding:0px;
+    background-color: #5499C7;
+    display:inline-block;
+    vertical-align: top;
+}
+.rightbox{
+    height:auto;
+    width:400px;
+    display:inline-block;
+    vertical-align:top;
+    margin:0px 0px 0px 50px;
+    padding:0px;
+}
+.leftbox{
+    height:auto;
+    width:480px;
+    display:inline-block;
+    vertical-align: top;
+    margin:0px;
+    padding:0px;
 }
 .info p{
     text-align: center;
@@ -213,6 +262,13 @@ p{
     text-align:center;
     color:black;
     font-family: sans-serif;
+    margin: 10px auto;
+}
+.info a{
+    font-family: sans-serif;
+    text-decoration: none;
+    color:#2E86C1;
+    text-align: center;
 }
 .banbot{
     width:970px;
