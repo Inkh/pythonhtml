@@ -172,7 +172,29 @@ p{
     vertical-align: top;
     display:inline-block;
     background-color:pink;
-
+}
+.info p{
+    text-align: center;
+    font-family:sans-serif;
+    color:black;
+}
+.info ul li{
+    list-style:square;
+    text-align:center;
+    font-family: sans-serif;
+    color:black;
+}
+.info .p1{
+    padding:0px;
+    margin:0px;
+    text-align:center;
+    font-family: sans-serif;
+    color:#2E86C1;
+}
+.info h3{
+    text-align:center;
+    color:black;
+    font-family: sans-serif;
 }
 .banbot{
     width:970px;
@@ -186,7 +208,7 @@ p{
     color:#E5E7E9;
     font-size: 20px;
     margin:auto 35px;
-    padding:0px;
+    padding-left:0px;
     text-align: center;
     font-family: sans-serif;
 }
