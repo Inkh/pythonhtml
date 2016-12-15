@@ -67,6 +67,7 @@ input[type=text]{
     border: 2px;
     border-style: inset;
     box-shadow: 1.5px 1.5px 1.5px #000000;
+    box-sizing: border-box;
 }
 form{
     display:inline-block;
@@ -285,7 +286,7 @@ p{
 }
 .banbot{
     width:970px;
-    height:120px;
+    height:auto;
     padding:60px 0px 0px 0px;
     background: linear-gradient(to bottom, #21618C, #2E86C1);
     display:inline-block;
@@ -309,7 +310,7 @@ p{
     vertical-align: top;
 }
 .banbot p{
-    margin:0px;
+    margin:0px 0px 10px 0px;
     font-size:12px;
     color:#E5E7E9;
     font-family: sans-serif;
